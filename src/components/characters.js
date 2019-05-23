@@ -1,10 +1,6 @@
-/* eslint-disable react/no-unused-state */
-/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-import api from '../services';
 
 const Card = styled.section`
   padding: 4em;
@@ -24,16 +20,16 @@ const Description = styled.h1`
 `;
 
 class Characters extends Component {
-
   state = {
     org: {},
   };
 
   async componentDidMount() {
-    const { data } = await api.get('orgs/novatics')
+    const response = await fetch('https://api.github.com/orgs/novatics');
+    const data = await response.json();
     this.setState({
       org: data,
-    })
+    });
   }
 
   render() {
