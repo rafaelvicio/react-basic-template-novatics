@@ -12,10 +12,10 @@ Segue uma lista das bibliotecas e ferramentas utilizadas
 * [Prop Types](https://reactjs.org/docs/typechecking-with-proptypes.html): Verificação de tipo em tempo de execução para propriedades React e objetos semelhantes;
 * [Emotion](https://emotion.sh): Biblioteca que permite escrever CSS dentro dos componentes React;
 * [ESLint](https://eslint.org/): O ESLint é uma ferramenta de lint plugável para JavaScript e JSX;
-  * eslint-config-airbnb
-  * eslint-plugin-import
-  * eslint-plugin-jsx-a11y
-  * eslint-plugin-react
+  * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+  * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+  * [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+  * [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 * [Dotenv](https://github.com/motdotla/dotenv): Variaveis de ambiente para projetos React;
 * [Font Awesome](https://fontawesome.com/): O maior e mais conhecido conjunto de fontes e icones;
 * [SASS](https://sass-lang.com/): O SASS é um pré-processador de CSS;
