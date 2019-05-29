@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import React from 'react';
 
-import Routes from './routes';
+import Characters from './components/characters';
 
 import 'font-awesome/css/font-awesome.css';
 import './styles.scss';
@@ -10,7 +10,7 @@ dotenv.config();
 
 function App() {
   return (
-    <Routes />
+    <Characters title="Jhon Snow" description="King" />
   );
 }
 

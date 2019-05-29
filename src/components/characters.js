@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import styled from '@emotion/styled'
 import PropTypes from 'prop-types';
 
 const Card = styled.section`
@@ -40,7 +40,7 @@ class Characters extends Component {
       <Card>
         <Title>{org.name}</Title>
         <Description>
-          {title}
+          {title}/
           {description}
         </Description>
       </Card>
