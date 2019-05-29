@@ -24,3 +24,15 @@ Segue uma lista das bibliotecas e ferramentas utilizadas
 ## Utilizando:
 
 Para utilizar esse template, basta clonar o repositório.
+
+## Contribuição
+
+Todo o projeto está aberto a receber contribuição da comunidade, estamos aguardando o seu Pull Request.
+
+## Licença
+
+Distribuído sob a licença MIT
+
+## Contato
+
+Novatics - [oi@novatics.com.br](mail:oi@novatics.com.br)
